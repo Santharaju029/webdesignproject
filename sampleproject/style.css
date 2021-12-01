@@ -1,0 +1,49 @@
+.cardbody{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 15px;
+    font-size: 80%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: skyblue;
+}
+button{
+    background-color: indianred;
+    color: khaki;
+    padding: 5%;
+}
+h3{
+    color: lawngreen;
+
+}
+s{
+    color: black;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+img{
+    border-radius: 35px;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+.cardbody{
+    width:95px;
+    height: 45px;
+    font-size: 30px; 
+    background-color: skyblue;
+}
+button{
+    font-size: 30px;
+}
+}
